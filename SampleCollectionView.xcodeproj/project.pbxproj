@@ -12,6 +12,9 @@
 		75F6349B1F9FDF91008107FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F634991F9FDF91008107FA /* Main.storyboard */; };
 		75F6349D1F9FDF91008107FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F6349C1F9FDF91008107FA /* Assets.xcassets */; };
 		75F634A01F9FDF91008107FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F6349E1F9FDF91008107FA /* LaunchScreen.storyboard */; };
+		F5AEB32784EAA732F3174AD0 /* samplecollectionview-sample.png in Resources */ = {isa = PBXBuildFile; fileRef = F5AEB625C80F6E9FA4C71044 /* samplecollectionview-sample.png */; };
+		F5AEB81E614688868A67386D /* SampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEB185009ACD7FF00BB1EB /* SampleCollectionViewController.swift */; };
+		F5AEBBAF23EE1F477E8A880C /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEB0BA123DAD60B8BC39B3 /* SampleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,10 @@
 		75F6349C1F9FDF91008107FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F6349F1F9FDF91008107FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F634A11F9FDF91008107FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AEB0BA123DAD60B8BC39B3 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5AEB185009ACD7FF00BB1EB /* SampleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewController.swift; sourceTree = "<group>"; };
+		F5AEB625C80F6E9FA4C71044 /* samplecollectionview-sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samplecollectionview-sample.png"; sourceTree = "<group>"; };
+		F5AEBD1E2F04180A3E4DFC14 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,8 @@
 			children = (
 				75F634941F9FDF91008107FA /* SampleCollectionView */,
 				75F634931F9FDF91008107FA /* Products */,
+				F5AEBD1E2F04180A3E4DFC14 /* README.md */,
+				F5AEB646C3174E0790D73CFF /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				75F6349C1F9FDF91008107FA /* Assets.xcassets */,
 				75F6349E1F9FDF91008107FA /* LaunchScreen.storyboard */,
 				75F634A11F9FDF91008107FA /* Info.plist */,
+				F5AEB3FDC6A1FE21E7BF2B54 /* Sample Collection */,
 			);
 			path = SampleCollectionView;
+			sourceTree = "<group>";
+		};
+		F5AEB3FDC6A1FE21E7BF2B54 /* Sample Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F5AEB185009ACD7FF00BB1EB /* SampleCollectionViewController.swift */,
+				F5AEB0BA123DAD60B8BC39B3 /* SampleCollectionViewCell.swift */,
+			);
+			path = "Sample Collection";
+			sourceTree = "<group>";
+		};
+		F5AEB646C3174E0790D73CFF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5AEB625C80F6E9FA4C71044 /* samplecollectionview-sample.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +153,7 @@
 				75F634A01F9FDF91008107FA /* LaunchScreen.storyboard in Resources */,
 				75F6349D1F9FDF91008107FA /* Assets.xcassets in Resources */,
 				75F6349B1F9FDF91008107FA /* Main.storyboard in Resources */,
+				F5AEB32784EAA732F3174AD0 /* samplecollectionview-sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,8 @@
 			files = (
 				75F634981F9FDF91008107FA /* ViewController.swift in Sources */,
 				75F634961F9FDF91008107FA /* AppDelegate.swift in Sources */,
+				F5AEB81E614688868A67386D /* SampleCollectionViewController.swift in Sources */,
+				F5AEBBAF23EE1F477E8A880C /* SampleCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
